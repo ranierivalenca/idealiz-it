@@ -7,7 +7,8 @@ define('DB_PW', 'secret');
 $replaces = [
     'DB_DATABASE' => DB_NAME,
     'DB_USERNAME' => DB_USERNAME,
-    'DB_PASSWORD' => DB_PW
+    'DB_PASSWORD' => DB_PW,
+    'APP_NAME' => 'Idealiz.it'
 ];
 
 $env = file_get_contents('.env');
