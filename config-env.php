@@ -8,7 +8,7 @@ $replaces = [
     'DB_DATABASE' => DB_NAME,
     'DB_USERNAME' => DB_USERNAME,
     'DB_PASSWORD' => DB_PW,
-    'APP_NAME' => 'Idealiz.it'
+    'APP_NAME' => 'Idealize.app'
 ];
 
 $env = file_get_contents('.env');
