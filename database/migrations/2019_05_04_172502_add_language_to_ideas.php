@@ -14,7 +14,7 @@ class AddLanguageToIdeas extends Migration
     public function up()
     {
         Schema::table('ideas', function (Blueprint $table) {
-            $table->unsignedBigInteger('language_id');
+            $table->unsignedBigInteger('language_id')->nullable();
 
             $table->foreign('language_id')->references('id')->on('languages');
         });
