@@ -86,7 +86,7 @@
                 </div>
 
                 <div class="call">
-                    Todo mundo tem grandes ideias. Mostre as suas para o mundo.
+                    {{ __('messages.landing.call') }}
                 </div>
             </div>
         </div>
