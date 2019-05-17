@@ -3,7 +3,19 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-4">
+            <a href="{{route('ideas.create')}}">
+                <div class="card">
+                    <div class="card-header">
+                        {{__('messages.home.add.idea')}}
+                    </div>
+                    <div class="card-body">
+                        {{__('messages.home.add.idea.body')}}
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('messages.home.dashboard', ['name' => Auth::user()->name]) }}</div>
 
@@ -18,7 +30,7 @@
                     {{__('messages.home.logged')}}
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 @endsection
